@@ -34,9 +34,7 @@ if (process.env.WEBHOOK_ID && process.env.WEBHOOK_TOKEN) {
         secure: false,
       },
     ],
-  },
 
-  
 const startLogs = new Discord.WebhookClient({
     id: webhook.startLogs.id,
     token: webhook.startLogs.token,
