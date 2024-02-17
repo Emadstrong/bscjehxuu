@@ -205,4 +205,3 @@ LAVALINK_NODES: [
         secure: false,
       },
     ],
-    },
