@@ -196,12 +196,3 @@ process.on('warning', warn => {
         console.log(warn)
     })
 });
-LAVALINK_NODES: [
-      {
-        host: "0.0.0.0",
-        port: 10000,
-        password: "youshallnotpasggs",
-        id: "onrender",
-        secure: false,
-      },
-    ],
