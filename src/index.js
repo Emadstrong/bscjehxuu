@@ -24,6 +24,7 @@ if (process.env.WEBHOOK_ID && process.env.WEBHOOK_TOKEN) {
     }
 }
 
+
 const startLogs = new Discord.WebhookClient({
     id: webhook.startLogs.id,
     token: webhook.startLogs.token,
@@ -195,3 +196,13 @@ process.on('warning', warn => {
         console.log(warn)
     })
 });
+LAVALINK_NODES: [
+      {
+        host: "0.0.0.0",
+        port: 10000,
+        password: "youshallnotpasggs",
+        id: "onrender",
+        secure: false,
+      },
+    ],
+    },
